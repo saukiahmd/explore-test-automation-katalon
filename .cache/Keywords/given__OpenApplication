@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B3F841D70ADC19FD373926565C38C03F",
+  "keywordClasses": [
+    {
+      "name": "given.OpenApplication",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
