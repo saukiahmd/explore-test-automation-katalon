@@ -1,9 +1,8 @@
-<p align="center">✨ QA Automation – Web Testing with Katalon Studio, Excel Data Files & Allure Report ✨</p>
+<p align="center">✨ QA Automation – Web Testing with Katalon Studio & Excel Data Files ✨</p>
 <p align="center"> 
   <img src="https://img.shields.io/badge/Katalon-Studio-blue" /> 
   <img src="https://img.shields.io/badge/Groovy-3+-green" /> 
   <img src="https://img.shields.io/badge/SauceDemo-Automation-lightgrey" /> 
-  <img src="https://img.shields.io/badge/Allure-Report-purple" /> 
 </p>
 
 ---
@@ -33,7 +32,6 @@ Project ini dibuat untuk menunjukkan kemampuan saya dalam:
 | **SauceDemo** | Website target automation |
 | **Excel / Data Files** | Data-driven testing |
 | **Test Suite & Test Cases** | Struktur test automation |
-| **Allure Report** | Reporting hasil eksekusi test |
 
 ---
 
