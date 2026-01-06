@@ -56,3 +56,13 @@ WebUI.setText(findTestObject('input_password'), password)
 WebUI.click(findTestObject('btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('products_page'), 10)
+
+---
+
+📊 Allure Report Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saukiahmd/explore-test-automation-wdio-cucumber-saucedemo/a1a351bff93953671da1efc2047cae32b72fcec9/html-result/Katalon.png" width="1000"/>
+</p>
+
+---
