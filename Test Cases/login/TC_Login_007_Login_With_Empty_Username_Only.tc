@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Login_007_Login_With_Empty_Username_Only</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23dfcc8b-5f8d-493c-b044-6bd592384434</testCaseGuid>
+</TestCaseEntity>
