@@ -8,3 +8,8 @@
 def static "given.OpenApplication.openBrowser"() {
     (new given.OpenApplication()).openBrowser()
 }
+
+
+def static "given.CloseApplication.closeBrowser"() {
+    (new given.CloseApplication()).closeBrowser()
+}

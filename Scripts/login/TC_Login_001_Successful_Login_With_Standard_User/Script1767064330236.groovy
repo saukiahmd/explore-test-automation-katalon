@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// Given
-CustomKeywords.'given.OpenApplication.openBrowser'()
-
 // TC_Login_001_Successful_Login_With_Standard_User
-WebUI.setText(findTestObject('login/input_username'), 'standard_user')
+WebUI.setText(findTestObject('login/input_username'), username)
 
-WebUI.setText(findTestObject('login/input_password'), 'secret_sauce')
+WebUI.setText(findTestObject('login/input_password'), password)
 
 WebUI.click(findTestObject('login/btn_login'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('login/container_products'))
+
 

@@ -46,7 +46,6 @@ class OpenApplication {
 	@Keyword
 	def openBrowser() {
 		WebUI.openBrowser('')
-		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.saucedemo)
 	}
 }
