@@ -35,31 +35,7 @@ Project ini dibuat untuk menunjukkan kemampuan saya dalam:
 
 ---
 
-🧪 **Contoh Test Case (Data-Driven)**
-
-**Variables di Test Case:**
-| Variable | Type |
-|----------|------|
-| username | String |
-| password | String |
-
-**Excel Data File (LoginData.xlsx):**
-| username      | password     |
-|---------------|------------|
-| standard_user | secret_sauce |
-| locked_user   | secret_sauce |
-
-**Test Case Script (Groovy)**
-```groovy
-WebUI.setText(findTestObject('input_username'), username)
-WebUI.setText(findTestObject('input_password'), password)
-WebUI.click(findTestObject('btn_login'))
-
-WebUI.verifyElementPresent(findTestObject('products_page'), 10)
-
----
-
-📊 Allure Report Preview
+📊 Report Preview
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/saukiahmd/explore-test-automation-wdio-cucumber-saucedemo/a1a351bff93953671da1efc2047cae32b72fcec9/html-result/Katalon.png" width="1000"/>
